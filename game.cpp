@@ -1,8 +1,8 @@
 #include<stdio.h>
-#include<conio.h>     //for getch()
+#include<conio.h>     
 #include<time.h>
-#include<stdlib.h>     //for exit,system
-#include<windows.h>    //for exit,system,beep
+#include<stdlib.h>    
+#include<windows.h>    
 
 void Quickmenu(void);
 void GamingId(void);
@@ -1125,6 +1125,7 @@ void mine(void)
     return;
 }
 
+
 void mineplay(void)
 {
     int a=0,b=0,r,c,choice,tm,m[100][100],mi[100][100];
@@ -1155,7 +1156,7 @@ void mineplay(void)
     printf("\t=======\n\t| * * |\n\t| --- |\n\t=======\n");
     printf("\n Hii! \n Welcome to MINE SWEEPER \n In my version of MINE SWEEPER you can choose no. of blocks and no. of mines yourself\n");
     printf("\nBut, We also provide three levels and you can choose one from them\n");
-    printf("\n\t1.Beginner\n\t2.Intermediate\n\t3.Professional\n\t4.Create your own game\n ");
+    printf("\n\t1.Easy\n\t2.Intermediate\n\t3.Difficult\n\t4.Create your own game\n ");
 choicer:
     printf("\nEnter your choice\n");
     scanf("%d",&choice);
@@ -1349,6 +1350,8 @@ choicer:
        Quickmenu();
  return;
 }
+
+
 void blink(int c,int r)
 {
     for(int i=0;i<10;i++)
@@ -1376,6 +1379,7 @@ void blink(int c,int r)
     }
     return;
 }
+
 
 int winsound(void)
 {
