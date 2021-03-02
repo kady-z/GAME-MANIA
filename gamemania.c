@@ -29,7 +29,6 @@ int GId,age ;
 int main()
 {
     int choice;
-    mineplay();
     sound();
     system("cls");
     printf("\n\n\n\n\n\n\n\t\t\t\t\t\t GAME MANIA \n");
