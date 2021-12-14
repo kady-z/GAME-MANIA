@@ -7,9 +7,6 @@
 void Quickmenu(void);
 void GamingId(void);
 void GameMenu(void);
-void PlayerInformation(void);
-void updatePI(void);
-void DiceGame(void);
 void TicToe(void);
 void mine(void);
 void sound(void);
@@ -22,6 +19,9 @@ void mineplay(void);
 char wingame(char A[],int);
 int winsound(void);
 void blink(int c,int r);
+void PlayerInformation(void);
+void updatePI(void);
+void DiceGame(void);
 
 char name[40],usrid[40];
 int GId,age ;
